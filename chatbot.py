@@ -4,7 +4,11 @@ import nltk
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
-nltk.download('punkt')
+# Ensure NLTK punkt tokenizer is available (download only if missing)
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt', quiet=True)
 
 class ChatBot:
     def __init__(self, intent_file):
