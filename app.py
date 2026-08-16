@@ -106,9 +106,9 @@ with container:
     # Input and controls
     col1, col2 = st.columns([8,1])
     with col1:
-            with st.form(key="chat_form", clear_on_submit=True):
-                # Provide a non-empty label for accessibility and hide it visually
-                user_input = st.text_input("Your question", placeholder="Type your question here and press Send...", key="input", label_visibility="collapsed")
+        with st.form(key="chat_form", clear_on_submit=True):
+            # Provide a non-empty label for accessibility and hide it visually
+            user_input = st.text_input("Your question", placeholder="Type your question here and press Send...", key="input", label_visibility="collapsed")
             submit = st.form_submit_button("Send")
             if submit:
                 send_message(user_input)
