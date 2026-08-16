@@ -4,10 +4,6 @@ An intelligent, NLP-based chatbot that answers college-related queries such as t
 
 ---
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-mnfbyk8okhugmdeogqcfn5.streamlit.app/)
-
-Live demo: https://chatbot-mnfbyk8okhugmdeogqcfn5.streamlit.app/
-
 
 ## 🚀 Features
 
@@ -32,11 +28,7 @@ Live demo: https://chatbot-mnfbyk8okhugmdeogqcfn5.streamlit.app/
 
 ## 📁 Project Structure
 
-## Demo
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-mnfbyk8okhugmdeogqcfn5.streamlit.app/)
 
-Open the live app: https://chatbot-mnfbyk8okhugmdeogqcfn5.streamlit.app/
-
-Screenshot
-
-![screenshot](assets/screenshot.png)
+Live demo: https://chatbot-mnfbyk8okhugmdeogqcfn5.streamlit.app/
 
