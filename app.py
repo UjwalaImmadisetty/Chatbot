@@ -1,5 +1,14 @@
 import streamlit as st
 from chatbot import ChatBot
+
+
+# Cache the ChatBot instance so the model is trained only once per server lifecycle
+@st.cache_resource
+def load_bot(path: str = "intents.json"):
+    return ChatBot(path)
+
+# Load chatbot (cached)
+bot = load_bot()
 from datetime import datetime
 
 # Load chatbot
@@ -65,7 +74,9 @@ def send_message(user_text: str):
     if not user_text or not user_text.strip():
         return
     st.session_state.history.append(("user", user_text.strip(), timestamp()))
-    bot_reply = bot.get_response(user_text.strip())
+    # Show spinner while the bot generates a reply
+    with st.spinner("Thinking..."):
+        bot_reply = bot.get_response(user_text.strip())
     st.session_state.history.append(("bot", bot_reply, timestamp()))
 
 def clear_chat():
