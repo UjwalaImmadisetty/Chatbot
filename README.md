@@ -4,6 +4,11 @@ An intelligent, NLP-based chatbot that answers college-related queries such as t
 
 ---
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-mnfbyk8okhugmdeogqcfn5.streamlit.app/)
+
+Live demo: https://chatbot-mnfbyk8okhugmdeogqcfn5.streamlit.app/
+
+
 ## 🚀 Features
 
 - 🔍 **Intent Detection** using TF-IDF and Logistic Regression
@@ -26,4 +31,12 @@ An intelligent, NLP-based chatbot that answers college-related queries such as t
 ---
 
 ## 📁 Project Structure
+
+## Demo
+
+Open the live app: https://chatbot-mnfbyk8okhugmdeogqcfn5.streamlit.app/
+
+Screenshot
+
+![screenshot](assets/screenshot.png)
 
