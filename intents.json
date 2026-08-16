@@ -1,0 +1,282 @@
+[
+  {
+    "intent": "admission",
+    "patterns": [
+      "How can I get admission?",
+      "What is the admission process?",
+      "How do I apply for admission?",
+      "Tell me about the admission process",
+      "How can I join the college?"
+    ],
+    "responses": [
+      "You can apply through the official college admission portal.",
+      "The admission process depends on the course. Please check the Admissions section of the college website."
+    ]
+  },
+  {
+    "intent": "courses",
+    "patterns": [
+      "What courses are offered?",
+      "Which courses are available?",
+      "Tell me about the courses",
+      "What programs does the college offer?",
+      "Which branches are available?"
+    ],
+    "responses": [
+      "The college offers undergraduate and postgraduate programs in various disciplines.",
+      "You can check the official college website for the complete list of available courses."
+    ]
+  },
+  {
+    "intent": "departments",
+    "patterns": [
+      "What departments are there?",
+      "Which departments are available?",
+      "Tell me about the college departments",
+      "What branches does the college have?",
+      "List the departments"
+    ],
+    "responses": [
+      "The college has several academic departments covering engineering, science, management, and other disciplines.",
+      "Please visit the Academics section of the college website for the complete department list."
+    ]
+  },
+  {
+    "intent": "exam",
+    "patterns": [
+      "When are the exams?",
+      "What is the exam schedule?",
+      "Tell me about exam dates",
+      "When will semester exams start?",
+      "Where can I find the exam timetable?"
+    ],
+    "responses": [
+      "The exam timetable is usually published on the college examination portal.",
+      "Please check the examination section of the college website for the latest schedule."
+    ]
+  },
+  {
+    "intent": "attendance",
+    "patterns": [
+      "What is the attendance requirement?",
+      "How much attendance is required?",
+      "What is the minimum attendance?",
+      "Tell me about attendance rules",
+      "How can I check my attendance?"
+    ],
+    "responses": [
+      "Students are expected to maintain the minimum attendance percentage specified by the college.",
+      "You can check your attendance through the student portal or contact your department."
+    ]
+  },
+  {
+    "intent": "library",
+    "patterns": [
+      "Where is the library?",
+      "What are the library timings?",
+      "When does the library open?",
+      "Tell me about the library",
+      "Can students borrow books?"
+    ],
+    "responses": [
+      "The college library provides textbooks, reference books, journals, and digital resources.",
+      "Students can borrow books according to the library rules and borrowing limits."
+    ]
+  },
+  {
+    "intent": "hostel",
+    "patterns": [
+      "Does the college have a hostel?",
+      "Is hostel facility available?",
+      "Tell me about hostel facilities",
+      "How can I apply for hostel?",
+      "What are the hostel facilities?"
+    ],
+    "responses": [
+      "Yes, hostel facilities may be available for eligible students.",
+      "For hostel admission, fees, and availability, please contact the college hostel administration."
+    ]
+  },
+  {
+    "intent": "transport",
+    "patterns": [
+      "Does the college provide transportation?",
+      "Is bus facility available?",
+      "Are college buses available?",
+      "Tell me about college transport",
+      "What are the bus timings?"
+    ],
+    "responses": [
+      "College transportation may be available on selected routes.",
+      "Please contact the transport department for current routes, timings, and fees."
+    ]
+  },
+  {
+    "intent": "placement",
+    "patterns": [
+      "Does the college provide placements?",
+      "Tell me about placements",
+      "Which companies visit the college?",
+      "What is the placement process?",
+      "Is placement assistance available?"
+    ],
+    "responses": [
+      "The college placement cell assists students with training, internships, and recruitment opportunities.",
+      "For current company visits and placement statistics, please contact the placement cell."
+    ]
+  },
+  {
+    "intent": "scholarship",
+    "patterns": [
+      "Are scholarships available?",
+      "How can I get a scholarship?",
+      "Tell me about scholarships",
+      "Who is eligible for scholarships?",
+      "What scholarship schemes are available?"
+    ],
+    "responses": [
+      "Scholarships may be available based on eligibility, merit, and government or institutional schemes.",
+      "Please contact the scholarship office for current eligibility criteria and application details."
+    ]
+  },
+  {
+    "intent": "faculty",
+    "patterns": [
+      "How can I contact faculty?",
+      "Where can I find faculty details?",
+      "Tell me about the faculty",
+      "Who are the faculty members?",
+      "How can I contact my professor?"
+    ],
+    "responses": [
+      "Faculty details are usually available on the respective department website.",
+      "You can contact your department office to get faculty contact information."
+    ]
+  },
+  {
+    "intent": "canteen",
+    "patterns": [
+      "Is there a canteen?",
+      "Where is the college canteen?",
+      "What are the canteen timings?",
+      "Does the college have a food court?",
+      "Tell me about the canteen"
+    ],
+    "responses": [
+      "Yes, the campus provides food facilities for students and staff.",
+      "For current canteen timings and menu details, please contact the campus administration."
+    ]
+  },
+  {
+    "intent": "labs",
+    "patterns": [
+      "Does the college have laboratories?",
+      "What lab facilities are available?",
+      "Tell me about the labs",
+      "Are computer labs available?",
+      "Where are the laboratories?"
+    ],
+    "responses": [
+      "The college provides laboratories for practical learning and academic activities.",
+      "Students can use the laboratories according to their department schedule and lab rules."
+    ]
+  },
+  {
+    "intent": "events",
+    "patterns": [
+      "What events are happening in college?",
+      "Are there any college events?",
+      "Tell me about upcoming events",
+      "What cultural events are conducted?",
+      "Are there technical events?"
+    ],
+    "responses": [
+      "The college conducts technical, cultural, sports, and other student activities throughout the academic year.",
+      "Please check the college notice board or official website for upcoming events."
+    ]
+  },
+  {
+    "intent": "sports",
+    "patterns": [
+      "What sports facilities are available?",
+      "Does the college have a sports ground?",
+      "Are sports activities available?",
+      "Tell me about sports facilities",
+      "What games can students play?"
+    ],
+    "responses": [
+      "The college provides sports facilities and encourages students to participate in various activities.",
+      "Contact the physical education department for information about available sports and facilities."
+    ]
+  },
+  {
+    "intent": "contact",
+    "patterns": [
+      "How can I contact the college?",
+      "What is the college contact number?",
+      "Give me the college contact details",
+      "How do I contact the administration?",
+      "Where can I find contact information?"
+    ],
+    "responses": [
+      "You can find the official contact details on the college website.",
+      "For specific queries, you can contact the relevant college department or administrative office."
+    ]
+  },
+  {
+    "intent": "location",
+    "patterns": [
+      "Where is the college located?",
+      "What is the college address?",
+      "How can I reach the college?",
+      "Tell me the college location",
+      "Where is the campus?"
+    ],
+    "responses": [
+      "The college is located at the address mentioned on its official website.",
+      "You can use a navigation application to find directions to the college campus."
+    ]
+  },
+  {
+    "intent": "student_portal",
+    "patterns": [
+      "What is the student portal?",
+      "How can I access the student portal?",
+      "Where can I check my student information?",
+      "How do I login to the student portal?",
+      "What can I do on the student portal?"
+    ],
+    "responses": [
+      "The student portal can be used to access academic and student-related information.",
+      "You can use your college credentials to log in to the student portal."
+    ]
+  },
+  {
+    "intent": "id_card",
+    "patterns": [
+      "How can I get my ID card?",
+      "Where can I get my student ID?",
+      "What should I do if I lose my ID card?",
+      "Tell me about student ID cards",
+      "How do I replace my ID card?"
+    ],
+    "responses": [
+      "Student ID cards are issued by the college administration.",
+      "If your ID card is lost or damaged, contact the administration office for a replacement."
+    ]
+  },
+  {
+    "intent": "internship",
+    "patterns": [
+      "Does the college provide internships?",
+      "How can I get an internship?",
+      "Are internship opportunities available?",
+      "Tell me about internships",
+      "Does the placement cell help with internships?"
+    ],
+    "responses": [
+      "The college may provide internship opportunities through its placement cell and industry connections.",
+      "Students can also apply for internships through external organizations and platforms."
+    ]
+  }
+]
